@@ -12,7 +12,7 @@ if [ "$EUID" -ne 0 ]; then
     exit 1
 fi
 
-REPO_RAW="https://raw.githubusercontent.com/你的用户名/chicken-sync/main"
+REPO_RAW="https://raw.githubusercontent.com/zhenzhenjunzilu/chicken-sync/main"
 
 INSTALL_DIR="/opt/chicken-sync"
 CONFIG_FILE="/etc/chicken-sync.conf"
