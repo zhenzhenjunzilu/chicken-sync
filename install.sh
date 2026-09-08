@@ -20,9 +20,7 @@ echo "[1/6] 创建目录..."
 mkdir -p "$INSTALL_DIR"
 
 echo "[2/6] 下载程序..."
-curl -fsSL 
-"$REPO_RAW/upload.py" 
--o "$INSTALL_DIR/upload.py"
+curl -fsSL "$REPO_RAW/upload.py" -o "$INSTALL_DIR/upload.py"
 
 chmod 755 "$INSTALL_DIR/upload.py"
 
